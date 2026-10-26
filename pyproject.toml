@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gsm-booster-finder"
+version = "1.0.0"
+description = "GSM Booster Direction Finder for Android"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "flet==0.25.2",
+]
+
+[tool.flet]
+org = "com.milisoft"
+product = "GSM Booster Finder"
+company = "Milisoft"
+copyright = "Copyright (C) 2026 Milisoft"
